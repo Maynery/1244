@@ -1,0 +1,30 @@
+@font-face {
+	font-family: 'Playfire';
+	src: url('../fonts/head1.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('../../fonts/Ubuntu-Light.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Monserrat';
+	src: url('../../fonts/Montserrat-Bold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@mixin ubuntu {
+    font-family: 'Ubuntu', Helvetica, sans-serif;
+}
+
+@mixin fire {
+    font-family: 'Playfire', Helvetica, sans-serif;
+}
+@mixin mons {
+    font-family: 'Monserrat', Helvetica, sans-serif;
+}

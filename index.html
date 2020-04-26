@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>   
+    
+<body>
+  <div class="wrapper">
+    <div class="maincontent">
+ <section class="hero " id="hero">
+    <div class="decorimg"></div>
+    <div class="hero__logo"><img class="logo" src="./icons/logo4.png" alt=""></div>
+     <nav class="menu__main">
+        <ul class="menu__item">
+           <li class="menu__link"><a class="menu__list" href="#hero">Главная</a></li>
+           <li class="menu__link"><a class="menu__list" href="#works">Портфолио</a></li>
+           <li class="menu__link"><a class="menu__list" href="#serv">Услуги</a></li>
+           <li class="menu__link"><a class="menu__list" href="#">Чат-бот</a></li>
+          
+       </ul>
+     </nav> 
+   
+        <svg class="inst">
+            <use xlink:href="sprite.svg#inst"></use>
+        </svg>
+        <div class="hero__header">
+          SMM-агентство <div class="agency">Quality Setting</div> 
+        </div>
+        
+      <div class="hero__text"><p>Мы SMM агентство Quality setting, которое трудится для того, чтобы наши заказчики зарабатывали больше.
+        Мы не просто настраиваем рекламу.<p>
+        <p>Мы создаем и улучшаем репутацию бизнеса в социальных сетях. Основные площадки, в которых мы творим свою магию - это instagram и Facebook.</p>
+        
+        <p>Владельцы франшизы izzibot™
+        С 2019 года стали единственными в России официальными представителями WhatsApp по разработке и внедрению инструмента лидогенерации WhatsApp-бота.</p></div>
+      <button class="btn" src="http://izimodal.marcelodolza.com" id="openDialog">Связаться с нами</button>
+       
+      <dialog class="dialog">
+        <form method="post" name="contact_form"
+        action="contact-form-handler.php">
+            Имя
+            <input type="text" name="name">
+            E-mail
+            <input type="text" name="email">
+           
+            <input type="submit" value="Отправить">
+        </form>
+        
+      <button сlass="btn" id="closeDialog">Закрыть окно</button>
+       </dialog>
+    </section> 
+    
+    
+    <section class="works" id="works">
+      <div class="slider-container">
+        <a class="arrow" id="left" href="#">←</a>
+        <div class="slider">
+          <div class="items" id="items">
+            <div class="item">
+               <div class="slider__title">Прибыль составила 74.500 Р</div>
+               <div class="slider__text"></div>  
+               
+           </div>
+            <div class="item"></div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+            <div class="item">7</div>
+            <div class="item">8</div>
+            <div class="item">9</div>
+          </div>
+        </div>
+        <a class="arrow" id="right" href="#">→</a>
+      </div>
+    </section>
+    
+    
+   <section class="serv" id="serv">
+    <div class="serv__title">Услуги</div>
+    <div class="serv__lite">
+     <div class="lite__header">Тариф "Lite"</div>     
+       
+    </div> 
+    <div class="serv__middle">
+      <div class="middle__header">Тариф "Middle"</div>     
+  
+     </div> 
+     <div class="serv__vip">
+      <div class="lite__vip">Тариф "Vip"</div>     
+  
+     </div> 
+   </section> 
+ 
+    <script src="js/main.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  </body>
+
+
+
+</footer>
+</html>

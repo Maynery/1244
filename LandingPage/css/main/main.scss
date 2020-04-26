@@ -1,0 +1,20 @@
+//color
+$white:#ffffff;
+$black: #000000;
+
+
+
+//config
+@import "../_misc/normalize.scss";
+@import "../_misc/fonts.scss";
+@import "../_misc/layout.scss";
+@import "../_misc/media.scss";
+
+//blocks
+@import "../blocks/hero.scss";
+@import "../blocks/reviews.scss";
+@import "../blocks/header.scss";
+@import "../blocks/works.scss";
+@import "../blocks/servises.scss";
+@import "../blocks/preloader.scss";
+@import "../blocks/fixed-menu.scss"

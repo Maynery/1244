@@ -1,0 +1,51 @@
+ .menu__main{
+   position: relative;
+   left: 100px; 
+  
+
+ }
+.menu__item {
+  position: absolute;
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 390px; /*убираем левый отступ, равный 40px*/
+    padding-top: 40px;
+  }
+  
+  
+.menu__list {
+    text-decoration: none; 
+    color:rgb(80, 80, 80);
+} 
+
+.menu__link {
+    display: inline;
+    margin-left:30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    &:hover {
+     background-color: #c034eb;
+    }
+   
+}
+
+
+ 
+.vk {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 1100px;
+    width: 30px;
+    height: 30px;
+     fill: #c034eb;
+
+}
+
+.inst {
+    width: 30px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 1170px;
+    fill:#c034eb;
+}
+

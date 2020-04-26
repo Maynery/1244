@@ -1,0 +1,28 @@
+
+ 
+ html,
+  body {
+    height: 100%;
+ 
+    width: 100%;
+    
+  }
+  
+  body {
+    font-size: rem(16px);
+    line-height: 1.42;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    @include ubuntu;
+    
+    touch-action: none;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+h1,h2,h3 {
+    @include ubuntu;
+}
